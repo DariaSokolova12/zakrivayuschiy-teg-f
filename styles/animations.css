@@ -12,16 +12,15 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
-@keyframes moveArrow {
-
-    0% {
-      inset-inline-start: -20px;
-    }
-  
-    100% {
-      inset-inline-start: -16px;
-    }
+@keyframes arrowMovement {
+  from {
+    inset-inline-start: -20px;
   }
+
+  to {
+    inset-inline-start: -16px;
+  }
+}
 
 .card__icon-button:hover .main-body {
     fill: var(--accent-color);
